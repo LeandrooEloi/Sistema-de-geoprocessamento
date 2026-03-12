@@ -99,7 +99,7 @@ Responsável por:
 - Calcular NDVI.
 - Calcular área em hectares.
 - Gerar a lógica de comparação temporal.
-
+---
 ## Sensores disponíveis
 
 ### Sentinel-2
@@ -107,7 +107,7 @@ Indicado para análises mais detalhadas em áreas menores.
 
 ### Landsat 8
 Indicado para análises históricas e comparações em períodos mais antigos.
-
+---
 ## Funcionalidades
 
 - Busca por nome de cidade ou local.
@@ -120,6 +120,7 @@ Indicado para análises históricas e comparações em períodos mais antigos.
 - Cálculo do delta de NDVI.
 - Visualização da diferença espacial de NDVI no mapa.
 
+---
 ## Exemplo de uso
 ### Exemplo de fluxo de uso da aplicação:
 
