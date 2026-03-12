@@ -73,7 +73,62 @@ O fluxo da aplicação é simples:
 .
 ├── app.py
 ├── geoprocessamento_py.py
-├── requirements.txt
 ├── README.md
 └── assets/
     └── screenshots/
+```
+
+### `app.py`
+Arquivo principal da interface da aplicação.
+
+Responsável por:
+
+- Criar a interface com Streamlit.
+- Renderizar o mapa interativo.
+- Capturar a geometria desenhada.
+- Receber local, datas e sensor.
+- Exibir métricas e camadas da análise.
+
+### `geoprocessamento_py.py`
+Arquivo com a base do processamento geoespacial.
+
+Responsável por:
+
+- Autenticar no Google Earth Engine.
+- Filtrar coleções de imagens por data e área.
+- Calcular NDVI.
+- Calcular área em hectares.
+- Gerar a lógica de comparação temporal.
+
+## Sensores disponíveis
+
+### Sentinel-2
+Indicado para análises mais detalhadas em áreas menores.
+
+### Landsat 8
+Indicado para análises históricas e comparações em períodos mais antigos.
+
+## Funcionalidades
+
+- Busca por nome de cidade ou local.
+- Busca por latitude e longitude.
+- Desenho interativo de perímetro.
+- Captura da geometria desenhada.
+- Comparação entre período A e período B.
+- Cálculo de área em hectares.
+- Cálculo de NDVI médio.
+- Cálculo do delta de NDVI.
+- Visualização da diferença espacial de NDVI no mapa.
+
+## Exemplo de uso
+### Exemplo de fluxo de uso da aplicação:
+
+- Buscar um local, como uma cidade ou propriedade rural.
+- Ajustar o mapa para a região desejada.
+- Desenhar a área de interesse.
+- Capturar a área desenhada.
+- Escolher o sensor.
+- Definir o período A e o período B.
+- Executar a comparação.
+- Analisar os valores de área, NDVI médio e diferença de NDVI.
+
