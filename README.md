@@ -107,7 +107,7 @@ Indicado para análises mais detalhadas em áreas menores.
 
 ### Landsat 8
 Indicado para análises históricas e comparações em períodos mais antigos.
----
+
 ## Funcionalidades
 
 - Busca por nome de cidade ou local.
