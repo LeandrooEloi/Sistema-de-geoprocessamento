@@ -20,8 +20,7 @@ O sistema permite buscar um local por nome ou por coordenadas, desenhar o perím
 ### Comparação temporal de NDVI
 ![Comparação NDVI](./assets/screenshots/comparacao-ndvi.png)
 
-### Resultado da análise
-![Resultado](./assets/screenshots/resultado.png)
+
 
 ---
 
